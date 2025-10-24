@@ -1,0 +1,166 @@
+default_agent: Aether_ProjectAdvisor_LabubuLarry
+agents:
+  Aether_CareerAlign:
+    name: Aether_CareerAlign
+    entrypoint: C:/Users/aappl/OneDrive/Documents/The Real World - College - Tax/Masters
+      UTD/Hackathon/PythonApplication1/Code Stuff/Agents/Aether_CareerAlign.py
+    platform: linux/arm64
+    container_runtime: none
+    source_path: C:\Users\aappl\OneDrive\Documents\The Real World - College - Tax\Masters
+      UTD\Hackathon\PythonApplication1\Code Stuff\Agents
+    aws:
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKRuntime-us-west-2-46c7e16ef6
+      execution_role_auto_create: false
+      account: '528160042459'
+      region: us-west-2
+      ecr_repository: 528160042459.dkr.ecr.us-west-2.amazonaws.com/bedrock-agentcore-aether_careeralign
+      ecr_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+    bedrock_agentcore:
+      agent_id: Aether_CareerAlign-k67gL0GXm7
+      agent_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:runtime/Aether_CareerAlign-k67gL0GXm7
+      agent_session_id: null
+    codebuild:
+      project_name: bedrock-agentcore-aether_careeralign-builder
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKCodeBuild-us-west-2-46c7e16ef6
+      source_bucket: bedrock-agentcore-codebuild-sources-528160042459-us-west-2
+    memory:
+      mode: STM_AND_LTM
+      memory_id: Aether_CareerAlign_mem-gmw3oTAdDT
+      memory_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:memory/Aether_CareerAlign_mem-gmw3oTAdDT
+      memory_name: Aether_CareerAlign_mem
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+  Aether_CourseCrafter:
+    name: Aether_CourseCrafter
+    entrypoint: C:/Users/aappl/OneDrive/Documents/The Real World - College - Tax/Masters
+      UTD/Hackathon/PythonApplication1/Code Stuff/Agents/Aether_CourseCrafter.py
+    platform: linux/arm64
+    container_runtime: none
+    source_path: C:\Users\aappl\OneDrive\Documents\The Real World - College - Tax\Masters
+      UTD\Hackathon\PythonApplication1\Code Stuff\Agents
+    aws:
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKRuntime-us-west-2-bbca2723e4
+      execution_role_auto_create: false
+      account: '528160042459'
+      region: us-west-2
+      ecr_repository: 528160042459.dkr.ecr.us-west-2.amazonaws.com/bedrock-agentcore-aether_coursecrafter
+      ecr_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+    bedrock_agentcore:
+      agent_id: Aether_CourseCrafter-TAW2Pv59hE
+      agent_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:runtime/Aether_CourseCrafter-TAW2Pv59hE
+      agent_session_id: null
+    codebuild:
+      project_name: bedrock-agentcore-aether_coursecrafter-builder
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKCodeBuild-us-west-2-bbca2723e4
+      source_bucket: bedrock-agentcore-codebuild-sources-528160042459-us-west-2
+    memory:
+      mode: STM_AND_LTM
+      memory_id: Aether_CourseCrafter_mem-yyvY4W4dWd
+      memory_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:memory/Aether_CourseCrafter_mem-yyvY4W4dWd
+      memory_name: Aether_CourseCrafter_mem
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+  Aether_InsightSeeker:
+    name: Aether_InsightSeeker
+    entrypoint: C:/Users/aappl/OneDrive/Documents/The Real World - College - Tax/Masters
+      UTD/Hackathon/PythonApplication1/Code Stuff/Agents/Aether_InsightSeeker.py
+    platform: linux/arm64
+    container_runtime: none
+    source_path: C:\Users\aappl\OneDrive\Documents\The Real World - College - Tax\Masters
+      UTD\Hackathon\PythonApplication1\Code Stuff\Agents
+    aws:
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKRuntime-us-west-2-2da5bf4042
+      execution_role_auto_create: false
+      account: '528160042459'
+      region: us-west-2
+      ecr_repository: 528160042459.dkr.ecr.us-west-2.amazonaws.com/bedrock-agentcore-aether_insightseeker
+      ecr_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+    bedrock_agentcore:
+      agent_id: Aether_InsightSeeker-wLOAg5FONW
+      agent_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:runtime/Aether_InsightSeeker-wLOAg5FONW
+      agent_session_id: null
+    codebuild:
+      project_name: bedrock-agentcore-aether_insightseeker-builder
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKCodeBuild-us-west-2-2da5bf4042
+      source_bucket: bedrock-agentcore-codebuild-sources-528160042459-us-west-2
+    memory:
+      mode: STM_AND_LTM
+      memory_id: Aether_InsightSeeker_mem-o9OYPx2ZhB
+      memory_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:memory/Aether_InsightSeeker_mem-o9OYPx2ZhB
+      memory_name: Aether_InsightSeeker_mem
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+  Aether_ProjectAdvisor_LabubuLarry:
+    name: Aether_ProjectAdvisor_LabubuLarry
+    entrypoint: C:/Users/aappl/OneDrive/Documents/The Real World - College - Tax/Masters
+      UTD/Hackathon/PythonApplication1/Code Stuff/Agents/Aether_ProjectAdvisor_LabubuLarry.py
+    platform: linux/arm64
+    container_runtime: none
+    source_path: C:\Users\aappl\OneDrive\Documents\The Real World - College - Tax\Masters
+      UTD\Hackathon\PythonApplication1\Code Stuff\Agents
+    aws:
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKRuntime-us-west-2-f90837fa86
+      execution_role_auto_create: false
+      account: '528160042459'
+      region: us-west-2
+      ecr_repository: 528160042459.dkr.ecr.us-west-2.amazonaws.com/bedrock-agentcore-aether_projectadvisor_labubularry
+      ecr_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+    bedrock_agentcore:
+      agent_id: Aether_ProjectAdvisor_LabubuLarry-iIO3XmDhRi
+      agent_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:runtime/Aether_ProjectAdvisor_LabubuLarry-iIO3XmDhRi
+      agent_session_id: null
+    codebuild:
+      project_name: bedrock-agentcore-aether_projectadvisor_labubularry-builder
+      execution_role: arn:aws:iam::528160042459:role/AmazonBedrockAgentCoreSDKCodeBuild-us-west-2-f90837fa86
+      source_bucket: bedrock-agentcore-codebuild-sources-528160042459-us-west-2
+    memory:
+      mode: STM_AND_LTM
+      memory_id: Aether_ProjectAdvisor_LabubuLarry_mem-Y2hCYxDTJK
+      memory_arn: arn:aws:bedrock-agentcore:us-west-2:528160042459:memory/Aether_ProjectAdvisor_LabubuLarry_mem-Y2hCYxDTJK
+      memory_name: Aether_ProjectAdvisor_LabubuLarry_mem
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
